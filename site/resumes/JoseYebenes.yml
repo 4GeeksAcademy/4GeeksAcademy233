@@ -1,0 +1,81 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jose 
+    last_name: Yebenes
+    
+    # Define yourself in 4-5 words
+    motto: Me gusta programar
+    
+    # focus
+    focus: Full-Stack Web Developer.
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+       Me gusta aprender, crear, investigar y nunca doy la espalda a un nuevo reto, la programación me aporta todo eso cada día, por eso decidí cambiar de profestión y empezar una nueva aventura como programadora full stack.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://media.licdn.com/dms/image/C5603AQHUeXM_ZAbppw/profile-displayphoto-shrink_200_200/0?e=1554940800&v=beta&t=FJz8CIO9oFZZGaELlWIgcgQXCB2q1fGnlY4Uw6WSb9c
+
+    # Contact Information
+    email: Jose.9.cr7@hotmail.com #optional
+    phone: 958983617 #optional
+    linkedin:#optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: manu-neufeld
+    
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: jugar en el pc
+
+      - item: jugar basketball
+
+      - item: Viajar
+
+# Your previous education
+education:
+    - degree: Ingenieria informatica
+      university: Duoc uc
+      # optional
+      university_logo: https://iconape.com/duoc-uc-logo-logo-icon-svg-png.html
+      time: 2019 - 2023
+      details: 
+       estudie ingenieria informatica
+
+# Your project portfolio
+projects:
+   Crear una proteccion para las personas al momento de que salgan a alguna fiesta ellos puedes notificar mediante a su telefono y la app llevara gps
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: 100%
+
+      - name: Javascript & jQuery
+        level: 95%
+
+      - name: Angular
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 100%
+
